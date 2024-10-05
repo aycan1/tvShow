@@ -1,0 +1,65 @@
+body {
+	font-family: "Arial", sans-serif;
+	background-color: #f4f4f9;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+	margin: 20px 0;
+}
+
+.search-bar {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+input {
+	padding: 10px;
+	width: 300px;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+}
+
+button {
+	padding: 10px 15px;
+	margin-left: 10px;
+	border: none;
+	background-color: #2c3e50;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+.show-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.tv-show-card {
+	width: 250px;
+	margin: 20px;
+}
+
+.more-button {
+	background: none;
+	border: none;
+	color: #2c3e50;
+	cursor: pointer;
+	font-size: 0.9em;
+	padding: 0;
+	margin-top: 5px;
+	text-decoration: underline;
+}
+
+.more-button:hover {
+	color: #1a2a3a;
+}
